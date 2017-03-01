@@ -30,10 +30,10 @@ docker push duplexa/cooler:v2
 ## Usage
 Run the following in the container.
 ```
-run.sh <input_pairs> <chromsize> <binsize> <output_prefix> <max_iter>
+run.sh <input_pairs> <chromsize> <binsize> <max_iter> <output_prefix>
 # input_pairs : a pairs file
 # chromsize : a chromsize file
 # binsize : binsize in bp
-# output_prefix : prefix of the output cool file
 # max_iter : max number of iteration (default is 200)
+# output_prefix : prefix of the output cool file
 ```

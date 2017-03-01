@@ -2,8 +2,8 @@
 pairs_file=$1  # bgzipped, with .px2 index
 chrsize_file=$2
 bin_size=$3
-out_prefix=$4
-max_iter=$5 # e.g. 3000 (default 200)
+max_iter=$4 # e.g. 3000 (default 200)
+out_prefix=$5
 
 cp $chrsize_file ./tmpchrsize
 
