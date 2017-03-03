@@ -21,7 +21,7 @@ RUN apt-get install -y python-setuptools python-dev
 RUN easy_install pip
 
 # installing python libraries
-RUN pip install numpy==1.11.1 matplotlib==1.5.3 scipy==0.18.1 biopython==1.68 joblib==0.10.2 h5py==2.6.0 pysam==0.9.1.4 bx-python==0.7.3 pandas
+RUN pip install numpy==1.11.1 matplotlib==1.5.3 scipy==0.18.1 biopython==1.68 joblib==0.10.2 h5py==2.6.0 pysam==0.9.1.4 bx-python==0.7.3 pandas pypairix==0.1.0
 
 # other requirements
 RUN apt-get install -y hdf5-tools libhdf5-serial-dev samtools
